@@ -1,5 +1,5 @@
-resource "aws_security_group" "class2" {
-  name        = "class2"
+resource "aws_security_group" "r1soft" {
+  name        = "r1soft"
   description = "Allow TLS inbound traffic"
 
   ingress {
